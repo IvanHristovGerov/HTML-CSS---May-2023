@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background:  rgb(238, 238, 238);
+    height: 100vh;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+}
+
+
+span a {
+    background: rgb(0, 153, 0);
+    display: block;
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+    border-radius: 0.2em;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-size: 1em/1.2;
+    font-family: Helvetica, sans-serif;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    background: rgb(255, 255, 255);
+    
+}
+
+.body{
+    padding: 1.5em;
+}
+
+section {
+    border-radius: 1em;
+    overflow: hidden;
+    width: 30em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+}
