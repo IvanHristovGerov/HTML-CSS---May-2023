@@ -1,0 +1,113 @@
+header h1{
+    color: rgb(174, 3, 174);
+}
+header {
+    display: flex;
+    margin: 0.5em 8em;
+}
+
+header nav ul{
+    display: flex;
+    gap: 1em;
+    margin-left: 5em;
+    margin-top: 1em;
+    
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20em;  
+}
+
+.first div{
+    display: block;
+    width: 30em;
+}
+
+.first div h2{
+    font-size: 2em;
+}
+
+.first svg{
+    height: 7em;
+    margin-left: 2em;
+}
+
+.first div p a{
+    display: block;
+    text-decoration: none;
+    border: 2px solid black;
+    margin-top: 0.5em;
+    padding: 0.2em;
+    width: fit-content;
+    text-align: center;
+    color: black;
+}
+
+.second h2{
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 0.7em;
+}
+
+.second hr{
+    border: 1px solid black;
+    display: flex;
+    width: 8%;
+    margin-left: 46%;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 4em;
+    width: 80%;
+    margin: 4em 10%;
+}
+
+.person{
+    width: 20%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.third {
+    background: rgb(97, 0, 97);
+    padding: 1em 0;
+}
+
+.third h2{
+    color: white;
+}
+
+.third div{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.third div a{
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    margin-left: 0.5em;
+}
+
+.fourth .section .person .bold{
+    margin-top: 1em;
+}
+
+.space {
+    margin-bottom: 1em;
+}
+
+
